@@ -1,5 +1,3 @@
-## Maintainer profile
-
 <p><code>asynccrafter@github:~$ whoami</code></p>
 
 <p align="center">
