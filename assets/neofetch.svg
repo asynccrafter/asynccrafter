@@ -43,7 +43,7 @@
   <circle cx="22" cy="18" r="6" fill="#f38ba8"/>
   <circle cx="42" cy="18" r="6" fill="#f9e2af"/>
   <circle cx="62" cy="18" r="6" fill="#a6e3a1"/>
-  <text x="450" y="23" font-size="12.5" fill="#6c7086" text-anchor="middle">asynccrafter@arch: ~</text>
+  <text x="450" y="23" font-size="12.5" fill="#6c7086" text-anchor="middle">asynccrafter@arch: ~$</text>
 
   <!-- prompt -->
   <text x="28" y="64" font-size="13" xml:space="preserve"><tspan fill="#a6e3a1">asynccrafter@arch</tspan><tspan fill="#6c7086">:&#160;</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#cba6f7">$</tspan><tspan fill="#cdd6f4">&#160;neofetch</tspan></text>
