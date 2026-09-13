@@ -71,7 +71,7 @@ theme    = "Catppuccin Mocha"   # everywhere, always
 <pre>
 → web ......... <a href="https://iamthejason.de">iamthejason.de</a>
 → github ...... <a href="https://github.com/asynccrafter">@asynccrafter</a>
-→ mail ........ <a mailto:kontakt@iamthejason.de>kontakt@iamthejason.de</a>
+→ mail ........ <a href="mailto:kontakt@iamthejason.de">kontakt@iamthejason.de</a>
 → instagram ... <a href="https://www.instagram.com/asynccrafter.de">asynccrafter.de</a>
 → x ........... <a href="https://x.com/asynccrafterde">@asynccrafterde</a>
 </pre>
