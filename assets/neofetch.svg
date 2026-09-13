@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" font-family="JetBrains Mono, Fira Code, Cascadia Code, ui-monospace, SFMono-Regular, Menlo, Consolas, DejaVu Sans Mono, monospace">
+  <title>neofetch — Jason Fischer (asynccrafter)</title>
+  <desc>A terminal window in the Catppuccin Mocha colour scheme showing neofetch output: an Arch Linux ASCII logo next to a list of PC specifications and personal details for Jason Fischer, asynccrafter, Germany.</desc>
+
+  <!--
+    ============================================================
+      EDIT ME - alle Platzhalter stehen in eckigen Klammern.
+      Werte ersetzen: der Text zwischen > und </tspan>
+      in der rechten Spalte (x="506"). Labels stehen auf x="410".
+      Zeilenabstand ist 19px - wenn du eine Zeile loeschst,
+      ruecken die darunter NICHT automatisch nach.
+    ============================================================
+  -->
+
+  <defs>
+    <!-- Arch-Logo: weicher Verlauf pink -> mauve -> blue (Catppuccin Mocha) -->
+    <linearGradient id="bi" gradientUnits="userSpaceOnUse" x1="0" y1="86" x2="0" y2="516">
+      <stop offset="0"   stop-color="#f5c2e7"/>
+      <stop offset="0.5" stop-color="#cba6f7"/>
+      <stop offset="1"   stop-color="#89b4fa"/>
+    </linearGradient>
+    <clipPath id="topbar">
+      <rect x="0" y="0" width="900" height="36"/>
+    </clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="899" height="649" rx="11" fill="#1e1e2e" stroke="#313244"/>
+
+  <!-- title bar -->
+  <g clip-path="url(#topbar)">
+    <rect x="0.5" y="0.5" width="899" height="46" rx="11" fill="#181825"/>
+  </g>
+  <line x1="0" y1="36" x2="900" y2="36" stroke="#313244"/>
+  <circle cx="22" cy="18" r="6" fill="#f38ba8"/>
+  <circle cx="42" cy="18" r="6" fill="#f9e2af"/>
+  <circle cx="62" cy="18" r="6" fill="#a6e3a1"/>
+  <text x="450" y="23" font-size="12.5" fill="#6c7086" text-anchor="middle">jason@arch: ~</text>
+
+  <!-- prompt -->
+  <text x="28" y="64" font-size="13" xml:space="preserve"><tspan fill="#a6e3a1">jason@arch</tspan><tspan fill="#6c7086"> in </tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#cba6f7"> ❯ </tspan><tspan fill="#cdd6f4">neofetch</tspan></text>
+
+  <!-- ==================== Arch ASCII logo ==================== -->
+  <g font-size="15" fill="url(#bi)" xml:space="preserve">
+    <text x="28" y="96">                   -`</text>
+    <text x="28" y="119">                  .o+`</text>
+    <text x="28" y="142">                 `ooo/</text>
+    <text x="28" y="165">                `+oooo:</text>
+    <text x="28" y="188">               `+oooooo:</text>
+    <text x="28" y="211">               -+oooooo+:</text>
+    <text x="28" y="234">             `/:-:++oooo+:</text>
+    <text x="28" y="257">            `/++++/+++++++:</text>
+    <text x="28" y="280">           `/++++++++++++++:</text>
+    <text x="28" y="303">          `/+++ooooooooooooo/`</text>
+    <text x="28" y="326">         ./ooosssso++osssssso+`</text>
+    <text x="28" y="349">        .oossssso-````/ossssss+`</text>
+    <text x="28" y="372">       -osssssso.      :ssssssso.</text>
+    <text x="28" y="395">      :osssssss/        osssss+++.</text>
+    <text x="28" y="418">     /ossssssss/        +ssssooo/-</text>
+    <text x="28" y="441">   `/ossssso+/:-        -:/+osssso+-</text>
+    <text x="28" y="464">  `+sso+:-`                 `.-/+oso:</text>
+    <text x="28" y="487"> `++:.                           `-/+/</text>
+    <text x="28" y="510"> .`                                 `/</text>
+  </g>
+
+  <!-- ==================== info column ==================== -->
+  <g font-size="13" xml:space="preserve">
+
+    <text x="410" y="96"><tspan fill="#f5c2e7">jason</tspan><tspan fill="#6c7086">@</tspan><tspan fill="#89b4fa">arch</tspan></text>
+    <text x="410" y="115" fill="#45475a">────────────────────────────────────────────</text>
+
+    <!-- ===== machine ===== -->
+    <text x="410" y="134"><tspan fill="#89b4fa">OS</tspan><tspan x="506" fill="#cdd6f4">[ OS ]</tspan></text>
+    <text x="410" y="153"><tspan fill="#89b4fa">Host</tspan><tspan x="506" fill="#cdd6f4">[ MAINBOARD ]</tspan></text>
+    <text x="410" y="172"><tspan fill="#89b4fa">Kernel</tspan><tspan x="506" fill="#cdd6f4">[ BUILD / KERNEL ]</tspan></text>
+    <text x="410" y="191"><tspan fill="#89b4fa">Uptime</tspan><tspan x="506" fill="#cdd6f4">[ N ] years, [ N ] months</tspan></text>
+    <text x="410" y="210"><tspan fill="#89b4fa">Packages</tspan><tspan x="506" fill="#cdd6f4">[ N ] repos, [ N ] shipped</tspan></text>
+    <text x="410" y="229"><tspan fill="#89b4fa">Shell</tspan><tspan x="506" fill="#cdd6f4">[ SHELL ]</tspan></text>
+    <text x="410" y="248"><tspan fill="#89b4fa">Resolution</tspan><tspan x="506" fill="#cdd6f4">[ 0000x0000 @ 000 Hz ]</tspan></text>
+    <text x="410" y="267"><tspan fill="#89b4fa">Theme</tspan><tspan x="506" fill="#cdd6f4">Catppuccin Mocha</tspan></text>
+    <text x="410" y="286"><tspan fill="#89b4fa">Terminal</tspan><tspan x="506" fill="#cdd6f4">[ TERMINAL ]</tspan></text>
+    <text x="410" y="305"><tspan fill="#89b4fa">Editor</tspan><tspan x="506" fill="#cdd6f4">[ EDITOR ]</tspan></text>
+    <text x="410" y="324"><tspan fill="#89b4fa">CPU</tspan><tspan x="506" fill="#cdd6f4">[ CPU ]</tspan></text>
+    <text x="410" y="343"><tspan fill="#89b4fa">GPU</tspan><tspan x="506" fill="#cdd6f4">[ GPU ]</tspan></text>
+    <text x="410" y="362"><tspan fill="#89b4fa">Memory</tspan><tspan x="506" fill="#cdd6f4">[ RAM ]</tspan></text>
+    <text x="410" y="381"><tspan fill="#89b4fa">Disk</tspan><tspan x="506" fill="#cdd6f4">[ STORAGE ]</tspan></text>
+
+    <text x="410" y="400" fill="#45475a">────────────────────────────────────────────</text>
+
+    <!-- ===== human ===== -->
+    <text x="410" y="419"><tspan fill="#cba6f7">Name</tspan><tspan x="506" fill="#cdd6f4">Jason Fischer</tspan></text>
+    <text x="410" y="438"><tspan fill="#cba6f7">Role</tspan><tspan x="506" fill="#cdd6f4">[ ROLE ]</tspan></text>
+    <text x="410" y="457"><tspan fill="#cba6f7">Location</tspan><tspan x="506" fill="#cdd6f4">Germany</tspan></text>
+    <text x="410" y="476"><tspan fill="#cba6f7">Stack</tspan><tspan x="506" fill="#cdd6f4">[ MAIN LANGUAGES ]</tspan></text>
+    <text x="410" y="495"><tspan fill="#cba6f7">Focus</tspan><tspan x="506" fill="#cdd6f4">[ WHAT YOU ARE BUILDING ]</tspan></text>
+    <text x="410" y="514"><tspan fill="#cba6f7">Languages</tspan><tspan x="506" fill="#cdd6f4">Deutsch, English</tspan></text>
+    <text x="410" y="533"><tspan fill="#cba6f7">Web</tspan><tspan x="506" fill="#f5c2e7">iamthejason.de</tspan></text>
+  </g>
+
+  <!-- ==================== colour blocks ==================== -->
+  <g>
+    <rect x="410" y="556" width="24" height="16" fill="#45475a"/>
+    <rect x="436" y="556" width="24" height="16" fill="#f38ba8"/>
+    <rect x="462" y="556" width="24" height="16" fill="#a6e3a1"/>
+    <rect x="488" y="556" width="24" height="16" fill="#f9e2af"/>
+    <rect x="514" y="556" width="24" height="16" fill="#89b4fa"/>
+    <rect x="540" y="556" width="24" height="16" fill="#f5c2e7"/>
+    <rect x="566" y="556" width="24" height="16" fill="#94e2d5"/>
+    <rect x="592" y="556" width="24" height="16" fill="#bac2de"/>
+
+    <rect x="410" y="576" width="24" height="16" fill="#585b70"/>
+    <rect x="436" y="576" width="24" height="16" fill="#eba0ac"/>
+    <rect x="462" y="576" width="24" height="16" fill="#94e2d5"/>
+    <rect x="488" y="576" width="24" height="16" fill="#fab387"/>
+    <rect x="514" y="576" width="24" height="16" fill="#b4befe"/>
+    <rect x="540" y="576" width="24" height="16" fill="#cba6f7"/>
+    <rect x="566" y="576" width="24" height="16" fill="#89dceb"/>
+    <rect x="592" y="576" width="24" height="16" fill="#cdd6f4"/>
+  </g>
+
+  <!-- ==================== blinking cursor ==================== -->
+  <text x="28" y="620" font-size="13" xml:space="preserve"><tspan fill="#a6e3a1">jason@arch</tspan><tspan fill="#6c7086"> in </tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#cba6f7"> ❯ </tspan></text>
+  <rect x="150" y="608" width="9" height="16" fill="#f5c2e7">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
