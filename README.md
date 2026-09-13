@@ -2,17 +2,19 @@
   ============================================================================
   PROFILE README - asynccrafter/asynccrafter
   ============================================================================
-  Alle Platzhalter stehen in [ eckigen Klammern ]. Suche einfach nach "[ "
-  und ersetze der Reihe nach. Was du nicht brauchst: Zeile loeschen.
-
   Die PC-Specs stehen NICHT hier, sondern in  assets/neofetch.svg
-  (dort oben ist nochmal eine kurze Anleitung).
+
+  Noch offen (nur du weisst das):
+    - [ LANG ]        ... was du gerade lernst
+    - [ EMAIL ]       ... oder die Zeile loeschen
+    - [ SOCIAL ]      ... oder die zwei Zeilen loeschen
+    - about.txt       ... Entwurf, ueberschreib ihn mit deinen Worten
   ============================================================================
 -->
 
 <p align="center">
   <img src="assets/neofetch.svg" width="900"
-       alt="neofetch output in a terminal window: an Arch Linux ASCII logo next to the specs of Jason Fischer's machine and a short profile - asynccrafter, Germany, iamthejason.de">
+       alt="neofetch output in a terminal window: an Arch Linux ASCII logo next to a list of machine specs and a short profile - Jason Fischer, asynccrafter, student from Germany, web development and cyber security, iamthejason.de">
 </p>
 
 <p align="center">
@@ -26,9 +28,13 @@
 ### `❯ cat about.txt`
 
 ```console
-[ Zwei, drei Saetze ueber dich. Was du baust, warum, und woran du gerade sitzt. ]
-[ Ruhig konkret werden - "I build X because Y" liest sich besser als eine ]
-[ Liste von Buzzwords. Drei Zeilen reichen vollkommen. ]
+Hi, I'm Jason - a student who builds small, fast things for the web
+and spends the rest of his time taking them apart again.
+
+Mostly vanilla HTML, CSS and JavaScript: no framework unless it earns
+its place. Python for everything else. Right now that means
+iamthejason.de, a handful of browser tools, and getting properly good
+at the security side of the web.
 
 More about me → iamthejason.de
 ```
@@ -36,29 +42,27 @@ More about me → iamthejason.de
 ### `❯ ls -lh ~/projects`
 
 <pre>
-total [ N ]
-drwxr-xr-x  jason  <a href="https://github.com/asynccrafter">[ project-one ]</a>    — [ one line: what it does ]
-drwxr-xr-x  jason  <a href="https://github.com/asynccrafter">[ project-two ]</a>    — [ one line: what it does ]
-drwxr-xr-x  jason  <a href="https://github.com/asynccrafter">[ project-three ]</a>  — [ one line: what it does ]
--rw-r--r--  jason  <a href="https://iamthejason.de">iamthejason.de</a>     — everything else
+total 4
+drwxr-xr-x  jason  <a href="https://github.com/asynccrafter/iamthejason.de">iamthejason.de</a>     — my corner of the internet, hand-written
+drwxr-xr-x  jason  <a href="https://github.com/asynccrafter/Passwordgenerator">Passwordgenerator</a>  — strong passwords, generated in the browser
+drwxr-xr-x  jason  <a href="https://github.com/asynccrafter/To-Do-List">To-Do-List</a>         — a task list with zero dependencies
+drwxr-xr-x  jason  <a href="https://github.com/asynccrafter/asynccrafter">asynccrafter</a>       — this profile
 </pre>
 
 ### `❯ cat ~/.config/stack.toml`
 
 ```toml
 [languages]
-daily    = [ "[ LANG ]", "[ LANG ]", "[ LANG ]" ]
+daily    = [ "HTML", "CSS", "JavaScript", "Python" ]
 learning = [ "[ LANG ]" ]
-someday  = [ "[ LANG ]" ]
 
-[frameworks]
-frontend = [ "[ ... ]" ]
-backend  = [ "[ ... ]" ]
+[focus]
+areas    = [ "Web Development", "Cyber Security" ]
 
 [tools]
-editor   = "[ EDITOR ]"
-terminal = "[ TERMINAL ]"
-os       = "[ Arch Linux ]"
+os       = "Arch Linux"
+terminal = "kitty"
+font     = "JetBrainsMono Nerd Font"
 theme    = "Catppuccin Mocha"   # everywhere, always
 ```
 
@@ -73,5 +77,5 @@ theme    = "Catppuccin Mocha"   # everywhere, always
 </pre>
 
 <p align="center">
-  <sub>Last login: [ MONTH YEAR ] on ttys001 &nbsp;·&nbsp; <a href="https://iamthejason.de">iamthejason.de</a></sub>
+  <sub>Last login: September 2026 on ttys001 &nbsp;·&nbsp; <a href="https://iamthejason.de">iamthejason.de</a></sub>
 </p>
