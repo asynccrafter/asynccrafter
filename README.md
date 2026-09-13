@@ -13,14 +13,7 @@
 -->
 
 <p align="center">
-  <img src="assets/neofetch.svg" width="900"
-       alt="neofetch output in a terminal window: an Arch Linux ASCII logo next to a list of machine specs and a short profile - Jason Fischer, asynccrafter, student from Germany, web development and cyber security, iamthejason.de">
-</p>
-
-<p align="center">
-  <a href="https://iamthejason.de"><b>iamthejason.de</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/asynccrafter">@asynccrafter</a>
+  <img src="assets/neofetch.svg" width="900">
 </p>
 
 ---
@@ -60,13 +53,11 @@ learning = [ "Python" ]
 areas    = [ "Web Development", "Cyber Security" ]
 
 [tools]
-os       = "Arch Linux"
-terminal = "kitty"
-font     = "JetBrainsMono Nerd Font"
-theme    = "Catppuccin Mocha"   # everywhere, always
+os       = [ "Arch Linux", "Ubuntu", "macOS", "Windows"]
+terminal = ["kitty", "zsh"]
 ```
 
-### `>_ ./contact.sh`
+### `❯ ./contact.sh`
 
 <pre>
 → web ......... <a href="https://iamthejason.de">iamthejason.de</a>
