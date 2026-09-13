@@ -58,7 +58,7 @@ backend  = [ "[ ... ]" ]
 [tools]
 editor   = "[ EDITOR ]"
 terminal = "[ TERMINAL ]"
-os       = "[ OS ]"
+os       = "[ Arch Linux ]"
 theme    = "Catppuccin Mocha"   # everywhere, always
 ```
 
@@ -71,34 +71,6 @@ theme    = "Catppuccin Mocha"   # everywhere, always
 → [ SOCIAL ] .. <a href="#">[ LINK ]</a>
 → [ SOCIAL ] .. <a href="#">[ LINK ]</a>
 </pre>
-
-<br>
-
-<details>
-<summary><b>🇩🇪 &nbsp;Das Ganze auf Deutsch</b></summary>
-
-<br>
-
-**Moin, ich bin Jason.**
-
-[ Zwei, drei Saetze ueber dich - dieselbe Idee wie oben, nur auf Deutsch. ]
-[ Keine Uebersetzung Wort fuer Wort noetig, schreib einfach wie du redest. ]
-
-| | |
-|---|---|
-| **Rolle** | [ ROLE ] |
-| **Stack** | [ MAIN LANGUAGES ] |
-| **Gerade am Bauen** | [ WHAT YOU ARE BUILDING ] |
-| **Gerade am Lernen** | [ LANG ] |
-| **Standort** | Germany |
-| **Mehr von mir** | [iamthejason.de](https://iamthejason.de) |
-
-Die Specs oben im Terminal-Fenster sind echt — falls dich interessiert,
-worauf das alles laeuft.
-
-</details>
-
----
 
 <p align="center">
   <sub>Last login: [ MONTH YEAR ] on ttys001 &nbsp;·&nbsp; <a href="https://iamthejason.de">iamthejason.de</a></sub>
